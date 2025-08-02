@@ -1,5 +1,7 @@
 # Multi-Theme Switcher App
 
+#Live URL: https://multithemeswitcher.netlify.app
+
 A React-based web application with a theme switcher supporting three distinct themes: Minimalist (Theme 1), Dark Sidebar (Theme 2), and Colorful Grid (Theme 3). Built with Vite, TypeScript, Tailwind CSS, and Framer Motion for animations.
 
 ## Features
@@ -35,6 +37,12 @@ A React-based web application with a theme switcher supporting three distinct th
 - `src/store/`: Zustand store for theme management
 - `src/pages/`: Page components
 - `src/styles/`: Global styles and Tailwind configuration
+- <img width="1918" height="871" alt="Screenshot 2025-08-03 001225" src="https://github.com/user-attachments/assets/77d3affb-5038-47ad-b3b5-11127624bff6" />
+<img width="1900" height="870" alt="Screenshot 2025-08-03 001241" src="https://github.com/user-attachments/assets/3ff0acb3-92f7-44dd-8b6a-4adf7434016a" />
+<img width="1898" height="865" alt="Screenshot 2025-08-03 001316" src="https://github.com/user-attachments/assets/de943760-d23a-4784-8cf3-25d2220124f0" />
+<img width="1915" height="869" alt="Screenshot 2025-08-03 001405" src="https://github.com/user-attachments/assets/231728cf-e272-4bd9-8472-6064d87c88a5" />
+<img width="1564" height="865" alt="Screenshot 2025-08-03 001026" src="https://github.com/user-attachments/assets/ccb7cf10-cd61-477b-b9f2-24b7a42c7cc4" />
+
 
 ## Themes
 1. **Theme 1 (Minimalist)**: Light background, sans-serif font (Inter), clean layout
