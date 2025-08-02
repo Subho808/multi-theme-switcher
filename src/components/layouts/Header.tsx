@@ -23,14 +23,14 @@ const Header: React.FC = () => {
               {theme === 'theme2' && (
           <button
             onClick={toggleSidebar}
-            className="mr-4 p-2 rounded-md hover:bg-[var(--color-primary)]/20 transition-colors"
+            className=" rounded-md hover:bg-[var(--color-primary)]/20 transition-colors"
           >
             {isSidebarOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         )}
         <Link to="/" className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-[var(--color-primary)] rounded-full" />
-          <span className="text-xl font-bold">ThemeSwitch</span>
+          <div className="w-6 h-6 bg-[var(--color-primary)] rounded-full" />
+          <span className="text-l font-bold">ThemeSwitch</span>
         </Link>
         </div>
     
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
           <select
             value={theme}
             onChange={handleThemeChange}
-            className="p-2 rounded-md bg-[var(--color-background)] border border-[var(--color-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]"
+            className="p-2 rounded-md text-l bg-[var(--color-background)] border border-[var(--color-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]"
           >
             <option value="theme1">Minimalist</option>
             <option value="theme2">Dark Sidebar</option>
