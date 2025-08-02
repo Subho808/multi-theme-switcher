@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@400;700&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: theme('colors.theme1.primary');
+  --color-secondary: theme('colors.theme1.secondary');
+  --color-background: theme('colors.theme1.background');
+  --color-text: theme('colors.theme1.text');
+  --color-accent: theme('colors.theme1.accent');
+  --spacing-sm: theme('spacing.theme1-sm');
+  --spacing-md: theme('spacing.theme1-md');
+  --border-radius: theme('borderRadius.theme1');
+  --font-family: theme('fontFamily.sans');
+}
+
+[data-theme="theme2"] {
+  --color-primary: theme('colors.theme2.primary');
+  --color-secondary: theme('colors.theme2.secondary');
+  --color-background: theme('colors.theme2.background');
+  --color-text: theme('colors.theme2.text');
+  --color-accent: theme('colors.theme2.accent');
+  --spacing-sm: theme('spacing.theme2-sm');
+  --spacing-md: theme('spacing.theme2-md');
+  --border-radius: theme('borderRadius.theme2');
+  --font-family: theme('fontFamily.serif');
+}
+
+[data-theme="theme3"] {
+  --color-primary: theme('colors.theme3.primary');
+  --color-secondary: theme('colors.theme3.secondary');
+  --color-background: theme('colors.theme3.background');
+  --color-text: theme('colors.theme3.text');
+  --color-accent: theme('colors.theme3.accent');
+  --spacing-sm: theme('spacing.theme3-sm');
+  --spacing-md: theme('spacing.theme3-md');
+  --border-radius: theme('borderRadius.theme3');
+  --font-family: theme('fontFamily.playful');
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  transition: all 0.3s ease;
+}
